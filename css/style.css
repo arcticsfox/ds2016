@@ -1,0 +1,153 @@
+
+html, body {
+    /**/
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+}
+
+.logo { 
+    position: relative; 
+    height: 100px; 
+    width: 100px; 
+    background-color: #00A6EB; 
+    border-radius: 99px; 
+    transform: rotate(135deg) skew(1deg); 
+    -webkit-transform: rotate(135deg) skew(1deg); 
+    border-top: 3px solid #E4003A; 
+}
+
+.logos-and-contacts {
+    padding: 50px;
+    position: relative;
+}
+
+.logos-and-contacts > h1 {
+    font-size: 47px;
+    color: #E4003A;
+    position: absolute;
+    top: 60px;
+    left: 154px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+.logos-and-contacts > h2 {
+    font-size: 18px;
+    color: #E4003A;
+    font-style: normal;
+    position: absolute;
+    top: 108px;
+    left: 156px;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
+}
+
+.logos-and-contacts .slogan {
+    position: absolute;
+    top: 50px;
+    right: 130px;
+    font-size: 22px;
+    color: #00A6EB;
+}
+
+.navbar-dmiva {
+    background-color: #00A6EB;
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-dmiva .nav > li > a {
+    color: #fff;
+}
+
+.navbar-dmiva .nav > li > a:hover,
+.navbar-dmiva .nav > li > a:active,
+.navbar-dmiva .nav > li > a:focus {
+    background-color: #00B6F6;
+}
+
+.article-area {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.article-area h3 {
+    margin-top: 0;
+    color: #E4003A;
+}
+
+.article-area p {
+    font-size: 16px;
+}
+
+.nav-pills > li > a {
+    border-radius: 0;
+}
+
+.nav-pills > li:hover > a {
+    background-color: #00B6F6;
+    color: #fff;
+}
+
+.nav-pills > li.active > a {
+    background-color: #00A6EB;
+}
+
+.page {
+    margin-bottom: 100px;
+}
+
+.page h3 {
+    color: #00A6EB;
+}
+
+.page h3 strong {
+    color: #E4003A;
+}
+
+.what-we-offer .service-header {
+    display: table;
+    margin-bottom: 10px;
+}
+
+.what-we-offer .service-header i.fa {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #E4003A;
+    font-size: 40px;
+    width: 60px;
+    height: 40px;
+    background-color: #EBEBEB;
+    border-radius: 999px;
+    padding: 10px;
+}
+
+.what-we-offer .service-header h4 {
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bold;
+    color: #444;
+    padding-left: 10px;
+}
+
+footer {
+    position: relative;
+    padding: 10px 50px 100px 50px;
+    background-color: #EBEBEB;
+}
+
+footer .logo {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+footer h1 {
+    color: #E4003A;
+    margin: 12px 0 20px 50px;
+    font-size: 20px;
+}
+
